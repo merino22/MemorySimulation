@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <string>
+#include "Pager.h"
 
 using std::string;
 using std::cout;

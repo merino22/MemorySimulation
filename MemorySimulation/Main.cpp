@@ -10,8 +10,6 @@ using namespace std;
 
 int main()
 {
-	FileOpener filePath;
-	string path = filePath.GetFilePath();
-	Pager pager(path);
+	FileOpener fileOpener;
 	return 0;
 }
