@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileOpener.cpp" />
+    <ClCompile Include="Loader.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +148,8 @@
     <None Include="..\..\..\..\Desktop\OS_II\Proyecto\gcc.trace" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FileOpener.h" />
+    <ClInclude Include="Loader.h" />
     <ClInclude Include="Record.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
