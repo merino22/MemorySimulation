@@ -14,9 +14,9 @@ class FileOpener
 {
 public:
 	FileOpener();
-	string GetFilePath();
 private:
 	string path;
+	string GetFilePath();
 };
 
 #endif
