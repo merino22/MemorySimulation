@@ -140,8 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FileOpener.cpp" />
-    <ClCompile Include="Loader.cpp" />
+    <ClCompile Include="Pager.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Swapper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\Desktop\OS_II\Proyecto\bzip.trace" />
@@ -149,8 +150,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileOpener.h" />
-    <ClInclude Include="Loader.h" />
+    <ClInclude Include="Pager.h" />
+    <ClInclude Include="OperationType.h" />
     <ClInclude Include="Record.h" />
+    <ClInclude Include="Swapper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

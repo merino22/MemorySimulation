@@ -6,16 +6,17 @@
 #include <fstream>
 #include <string>
 #include <stack>
+#include <queue>
 #include "Record.h"
 using namespace std;
 
-class Loader
+class Pager
 {
 public:
-	Loader(string path);
-
+	Pager(string path);
 private:
 	void StackLoader(ifstream& file);
+	stack<Record>checkForInstruction(stack<Record> &instructions, Record record);
 	
 };
 

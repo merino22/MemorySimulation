@@ -3,7 +3,7 @@
 #include "Record.h"
 #include <string>
 #include <stack>
-#include "Loader.h"
+#include "Pager.h"
 #include "FileOpener.h"
 
 using namespace std;
@@ -12,6 +12,6 @@ int main()
 {
 	FileOpener filePath;
 	string path = filePath.GetFilePath();
-	Loader loader(path);
+	Pager pager(path);
 	return 0;
 }
